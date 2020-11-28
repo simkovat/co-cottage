@@ -68,12 +68,20 @@ h2 {
   text-align: center;
   width: 145px;
 }
-.description {
+.description-big {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding: 0 100px;
-  font-size: 1.5em;
-    font-style: italic;
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+.description-small {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0 50px;
+  font-size: 1.0em;
+  font-style: italic;
 }
 
 .facilities-wrapper {
@@ -84,6 +92,12 @@ width: 100%;
 }
 
 .expectations-wrapper {
+  padding: 0 100px;
+  /* text-align: center; */
+  margin-bottom: 150px;
+}
+
+.rules-wrapper {
   padding: 0 100px;
   /* text-align: center; */
   margin-bottom: 150px;
