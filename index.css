@@ -1,3 +1,23 @@
+ol {
+  list-style: none;
+  counter-reset: steps;
+}
+ol li {
+  counter-increment: steps;
+  padding-bottom: 15px;
+}
+ol li::before {
+  content: "Moudro " counter(steps) ")";
+  margin-right: 0.5rem;
+  color: #ff6f00;
+}
+
+ul {
+  list-style-type: "→ ";
+  list-style-position: inside;
+}
+
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -77,11 +97,10 @@ h2 {
 }
 
 .description-small {
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
   padding: 0 50px;
   font-size: 1.0em;
-  font-style: italic;
 }
 
 .facilities-wrapper {
