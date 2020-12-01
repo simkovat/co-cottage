@@ -145,9 +145,9 @@ margin-bottom: 200px;
   text-align: right;
 }
 
-<style>
+
 .collapsible {
-  background-color: #777;
+  background-color: #ff6f00;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -156,6 +156,8 @@ margin-bottom: 200px;
   text-align: left;
   outline: none;
   font-size: 15px;
+  border-radius: 5px;
+  margin: 2px;
 }
 
 .active, .collapsible:hover {
@@ -169,4 +171,14 @@ margin-bottom: 200px;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
 }
-</style>
+
+.faq-wrapper {
+	margin-bottom: 50px;
+	
+}
+
+.order-wrapper {
+	margin-bottom: 50px;
+
+}
+
