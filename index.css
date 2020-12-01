@@ -32,6 +32,7 @@ body {
   background-image: url('./assets/house.jpg');
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 3px;
   background-size: cover;
   width: 100%;
   height: 400px;
@@ -109,8 +110,7 @@ h2 {
   padding: 50px 0;
   margin-bottom: 150px;
   margin-top: 150px;
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(228,226,226,0.8169642857142857) 50%, rgba(255,255,255,1) 100%);
-	width: 100%;
+  width: 100%;
 }
 
 .expectations-wrapper {
@@ -168,15 +168,15 @@ text-align: left;
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
 }
 
 .content {
   padding: 0 18px;
   max-height: 0;
+    margin: 2px;
+
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
 }
 
 .faq-wrapper {
@@ -189,4 +189,3 @@ text-align: left;
   margin-top: 150px;
 
 }
-
